@@ -43,7 +43,7 @@ function draw() {
         console.log("pisteet: " + pisteet);
       }
       textSize(32);
-      text('Elämiä jäjellä: ' + elamia_jaljella + '   Pisteet: ' + pisteet, 10, 30);
+      text('Elämiä jäljellä: ' + elamia_jaljella + '   Pisteet: ' + pisteet, 10, 30);
       if(elamia_jaljella == 0){
         gameOver();
       }
